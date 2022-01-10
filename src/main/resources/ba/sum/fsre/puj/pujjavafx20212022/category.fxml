@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="128.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ba.sum.fsre.puj.pujjavafx20212022.controller.CategoryController">
+   <children>
+      <TextField fx:id="categoryNameTxt" layoutX="14.0" layoutY="40.0" prefHeight="27.0" prefWidth="571.0" promptText="Naziv kategorije" />
+      <Button layoutX="478.0" layoutY="85.0" mnemonicParsing="false" onAction="#addCategory" text="Dodaj kategoriju" />
+      <Label layoutX="14.0" layoutY="14.0" text="Unesite naziv kategorije" />
+   </children>
+</AnchorPane>
